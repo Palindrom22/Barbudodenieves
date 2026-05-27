@@ -3,7 +3,7 @@ import { use, useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-
+export const dynamic = 'force-dynamic';
 const DATA: any = {
   'penezenka-etna': { name: 'Kožená peněženka - Motiv Etna', category: 'Peněženky', price: 800, images: ['/images/Penezenka_skladaci.png'], variants: ['Hnědá'], type: 'buttons' },
   'penezenka-amy': { name: 'Kožená peněženka - Motiv Amy', category: 'Peněženky', price: 1290, images: ['/images/Penezenka_Amy2.png', '/images/Penezenka_Amy3.png'], variants: ['Přírodní', 'Fialová', 'Hnědá', 'Černá', 'Červená', 'Zelená', 'Modrá'], type: 'buttons' },
