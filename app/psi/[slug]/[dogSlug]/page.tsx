@@ -35,7 +35,7 @@ const dogsDetailedData: Record<string, {
     description: "Amy je srdcem naší stanice a fena, která u nás všechno odstartovala. Původně jsme si ji pořídili jako parťáka na běhání a výlety, ale její přirozený talent nás rychle přesvědčil, že v ní dřímá mnohem víc. Právě díky ní jsme objevili svět lovecké kynologie a propadli mu natolik, že vznikla naše vlastní chovatelská stanice. Je to přesně ta úžasná, bláznivá a neúnavná 'maďarka', jakou si milovník ohařů představuje. I když své první dva vrhy odchovala ještě pod svou rodnou stanicí Caniley, pro nás je to právě ona, kdo položil základy Barbudo de Nieves.\n\nPráce a povaha: Jejím největším živlem je pole. Právě tam vyniká její chuť do práce, rychlost a systematické hledání. Jakmile ale sundá pracovní obojek, stává se z ní ten největší rodinný mazel, který nejšťastněji odpočívá v těsné blízkosti své smečky.",
     mainImage: "/images/Amy.jpg",
     gallery: [
-      "/images/amy.jpg", 
+      "/images/Amy.jpg", 
       "/images/Amy_gal_1.jpg",
       "/images/Amy_gal_2.jpg",
       "/images/Amy_gal_3.jpg",
