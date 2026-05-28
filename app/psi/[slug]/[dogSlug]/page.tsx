@@ -33,14 +33,14 @@ const dogsDetailedData: Record<string, {
     exams: "ZV I.C, PZ I.C, ZVP I.c, LZ I.c, VZ I.c",
     shows: "CZ šampion krásy, Klubová výstava Zákupy 2021 - V2/16 r.CAC, Klubová výstava Zákupy 2022 - V1/15 CAC",
     description: "Amy je srdcem naší stanice a fena, která u nás všechno odstartovala. Původně jsme si ji pořídili jako parťáka na běhání a výlety, ale její přirozený talent nás rychle přesvědčil, že v ní dřímá mnohem víc. Právě díky ní jsme objevili svět lovecké kynologie a propadli mu natolik, že vznikla naše vlastní chovatelská stanice. Je to přesně ta úžasná, bláznivá a neúnavná 'maďarka', jakou si milovník ohařů představuje. I když své první dva vrhy odchovala ještě pod svou rodnou stanicí Caniley, pro nás je to právě ona, kdo položil základy Barbudo de Nieves.\n\nPráce a povaha: Jejím největším živlem je pole. Právě tam vyniká její chuť do práce, rychlost a systematické hledání. Jakmile ale sundá pracovní obojek, stává se z ní ten největší rodinný mazel, který nejšťastněji odpočívá v těsné blízkosti své smečky.",
-    mainImage: "/images/amy.jpg",
+    mainImage: "/images/Amy.jpg",
     gallery: [
       "/images/amy.jpg", 
-      "/images/amy_gal_1.jpg",
-      "/images/amy_gal_2.jpg",
-      "/images/amy_gal_3.jpg",
-      "/images/amy_gal_4.jpg",
-      "/images/amy_gal_5.jpg"
+      "/images/Amy_gal_1.jpg",
+      "/images/Amy_gal_2.jpg",
+      "/images/Amy_gal_3.jpg",
+      "/images/Amy_gal_4.jpg",
+      "/images/Amy_gal_5.jpg"
     ],
     litters: [
       { name: "Vrh C (2022)", slug: "vrh-c" },
@@ -56,8 +56,8 @@ const dogsDetailedData: Record<string, {
     exams: "ZV, PZ, VP (vše I. cena)",
     shows: "Výborná",
     description: "Etna je mladá, nadějná fena českého fouska. Je nesmírně ovladatelná a klidná, což ji předurčuje pro precizní práci v revíru.",
-    mainImage: "/images/etna.jpg",
-    gallery: ["/images/etna.jpg"],
+    mainImage: "/images/Etna.jpg",
+    gallery: ["/images/Etna.jpg"],
     litters: [{ name: "Vrh A Barbudo de Nieves (2026)", slug: "vrh-a-fousek" }]
   }
 };

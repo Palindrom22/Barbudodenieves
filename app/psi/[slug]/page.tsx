@@ -35,7 +35,7 @@ const breedsData: Record<string, {
         slug: 'amy',
         name: "Amy Lady Caniley",
         role: "Zakladatelka chovu",
-        image: "/images/amy.jpg",
+        image: "/images/Amy.jpg",
         shortDesc: "Srdce naší chovatelské stanice. Neúnavná pracovní fena s bohatou loveckou praxí a úžasná matka našich vrhů C a E."
       }
     ],
@@ -53,7 +53,7 @@ const breedsData: Record<string, {
         slug: 'etna',
         name: "Etna od Pálavských vršků",
         role: "Mladá chovná fena",
-        image: "/images/etna.jpg",
+        image: "/images/Etna.jpg",
         shortDesc: "Naše druhá fenka s obrovským potenciálem. Mladá, klidná, perfektně ovladatelná a nesmírně učenlivá parťačka, která u nás zakládá linii fousků."
       }
     ],

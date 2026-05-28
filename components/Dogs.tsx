@@ -7,14 +7,14 @@ const breedsData = [
     breedName: "Maďarský krátkosrstý ohař",
     subTitle: "Vizsla (RVP)",
     description: "Elegantní, energické a vysoce inteligentní lovecké plemeno s neutuchající chutí do práce a hlubokou oddaností své rodině. Zakladatelka našeho chovu.",
-    image: "/images/amy.jpg",
+    image: "/images/Amy.jpg",
   },
   {
     slug: 'cesky-fousek',
     breedName: "Český fousek",
     subTitle: "Tradiční národní plemeno",
     description: "Hrubosrstý ohař s typickým vousem, rozvážnou povahou, vynikající ovladatelností a vrozenou vášní pro práci v revíru, na poli i ve vodě.",
-    image: "/images/etna.jpg",
+    image: "/images/Etna.jpg",
   }
 ];
 
