@@ -10,7 +10,7 @@ const DATA: any = {
   'penezenka-etna': { name: 'Kožená peněženka - Motiv Etna', category: 'Peněženky', price: 800, images: ['/images/Penezenka_skladaci.png'], variants: ['Hnědá'], type: 'buttons' },
   'penezenka-amy': { name: 'Kožená peněženka - Motiv Amy', category: 'Peněženky', price: 1290, images: ['/images/Penezenka_Amy2.png', '/images/Penezenka_Amy3.png'], variants: ['Přírodní', 'Fialová', 'Hnědá', 'Černá', 'Červená', 'Zelená', 'Modrá'], type: 'buttons' },
   'penezenka-alfred': { name: 'Kožená peněženka - Motiv Alfred', category: 'Peněženky', price: 1200, images: ['/images/Penezenka_Alfred.jpeg', '/images/Penezenka_Alfred2.jpeg'], variants: ['Hnědá', 'Černá', 'Žlutá', 'Modrá', 'Červená'], type: 'buttons' },
-  'znamka-plemena': { name: 'Psí známka - Výběr plemene', category: 'Psí známky', price: 300, images: ['/images/obojek_znamka.jpeg', '/images/Psi_znamka.png'], variants: ['Český fousek ', 'Bernský honič'], type: 'select', map: { 'Bernský honič': 1, 'Český fousek': 0, } },
+  'znamka-plemena': { name: 'Psí známka - Výběr plemene', category: 'Psí známky', price: 300, images: ['/images/obojek_znamka.jpeg', '/images/Psi_znamka.png'], variants: ['Český fousek ', 'Bernský honič'], type: 'select', map: { 'Bernský honič': 1, 'Český fousek': 1, } },
   'obojek-kozeny': { name: 'Kožený obojek', category: 'Obojky', price: 650, images: ['/images/Obojek_dobrman.jpeg'], variants: ['S', 'M', 'L'], type: 'buttons' },
   'obojek-barvarsky': { name: 'Barvářský obojek', category: 'Obojky', price: 750, images: ['/images/obojek_znamka.jpeg'], variants: ['Hnědá'], type: 'buttons' }
 };
