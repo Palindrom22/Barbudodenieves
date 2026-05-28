@@ -4,13 +4,15 @@ import { use } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+
 export const dynamic = 'force-dynamic';
+
 const littersData: Record<string, {
   title: string;
   date: string;
   father: string;
   mother: string;
-  breedSlug: string; // Přidáno pro chytrý návrat na správné plemeno
+  breedSlug: string; 
   breedName: string;
   description: string;
   mainImage: string;

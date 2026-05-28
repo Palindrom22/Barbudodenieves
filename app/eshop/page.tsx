@@ -22,11 +22,10 @@ function EshopContent() {
 
   const allAvailableColors = Array.from(new Set(PRODUCTS.flatMap(p => p.colors || []))).filter(Boolean);
 
-  // ZDE JE OPRAVA FILTRACE
   const filtered = PRODUCTS.filter(p => {
     const matchCat = cat === 'vse' || p.category === cat;
     const matchColor = color === 'vse' || (p.colors && p.colors.includes(color));
-    const matchPrice = p.price <= maxPrice; // Nyní správně porovnává cenu produktu s nastaveným limitem
+    const matchPrice = p.price <= maxPrice;
     return matchCat && matchColor && matchPrice;
   });
 
@@ -51,7 +50,6 @@ function EshopContent() {
         </div>
         <div>
           <label className="text-xs uppercase text-[#666] mb-2 block">Cena do: {maxPrice} Kč</label>
-          {/* Ujisti se, že input má správný typ a event */}
           <input 
             type="range" 
             min="0" 
@@ -68,7 +66,9 @@ function EshopContent() {
         {filtered.length > 0 ? (
           filtered.map(p => (
             <div key={p.slug} className="bg-[#161616] border border-[#222] rounded-xl overflow-hidden">
-              <div className="relative h-64 w-full"><Image src={p.image} alt={p.name} fill className="object-cover" /></div>
+              <div className="relative h-64 w-full">
+                <Image src={p.image} alt={p.name} fill className="object-cover" />
+              </div>
               <div className="p-5">
                 <h3 className="font-bold">{p.name}</h3>
                 <p className="text-[#c5a880] mb-4">{p.price} Kč</p>

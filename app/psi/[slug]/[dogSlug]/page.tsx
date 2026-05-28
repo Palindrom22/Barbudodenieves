@@ -4,14 +4,16 @@ import { useState, use } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+
 export const dynamic = 'force-dynamic';
+
 const dogsDetailedData: Record<string, {
   name: string;
   breed: string;
   breedSlug: string;
   born: string;
-  father?: string;  // Přidáno
-  mother?: string;  // Přidáno
+  father?: string;
+  mother?: string;
   health: string;
   exams: string;
   shows: string;
@@ -66,9 +68,6 @@ export default function DogDetailPage({ params }: { params: Promise<{ slug: stri
   const [currentSlide, setCurrentSlide] = useState(0);
 
   if (!dog) notFound();
-
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % dog.gallery.length);
-  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + dog.gallery.length) % dog.gallery.length);
 
   return (
     <main className="min-h-screen bg-[#121212] text-white py-20 px-4 md:px-8 pt-28">

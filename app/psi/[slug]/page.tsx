@@ -4,7 +4,9 @@ import { use } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+
 export const dynamic = 'force-dynamic';
+
 // Databáze plemen, která pod sebe sdružuje konkrétní psy a jejich vrhy
 const breedsData: Record<string, {
   name: string;
@@ -142,7 +144,6 @@ export default function BreedPage({ params }: { params: Promise<{ slug: string }
             </div>
           </div>
         )}
-
       </div>
     </main>
   );
