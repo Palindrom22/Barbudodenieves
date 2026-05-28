@@ -22,7 +22,7 @@ export default function IntroGatewayPage() {
         >
           <div 
             className="absolute inset-0 bg-[#161616] bg-cover bg-center transition-transform duration-1000 group-hover:scale-105 opacity-50"
-            style={{ backgroundImage: "url('/images/amy.jpg')" }} 
+            style={{ backgroundImage: "url('/images/Amy.jpg')" }} 
           />
           <div className="relative z-20 p-6 text-center">
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-white uppercase tracking-wider">Chovatelská stanice</h2>
